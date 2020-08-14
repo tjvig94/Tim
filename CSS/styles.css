@@ -1,0 +1,147 @@
+/****************TAGS****************/
+body {
+  text-align: center;
+  margin: 0;
+  color: #68b0ab;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 80px;
+  font-size: 500%;
+  color: #197163;
+  font-family: 'Satisfy', cursive;
+  line-height: 2;
+}
+
+p {
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'IM Fell Double Pica', serif;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'IM Fell Double Pica', serif;
+  line-height: 2;
+}
+
+div {
+  margin: auto;
+}
+
+hr {
+  margin-top: 100px;
+  border: none;
+  border-top: 15px dotted #faf3dd;
+  width: 10%;
+}
+
+/****************CLASS***************/
+.top-container {
+  position: relative;
+  margin-top: 0;
+  padding-top: 50px;
+  color: white;
+  background-color: #c8d5b9;
+}
+
+.hi {
+  margin-top: 100px;
+}
+
+.skills {
+  margin-top: 100px;
+  color: white;
+  background-color: #c8d5b9;
+  padding-bottom: 100px;
+}
+
+.pedagogy {
+  width: 60%;
+  margin: 0 auto 100 auto;
+  position: relative;
+  text-align: left;
+}
+
+.design {
+  width: 60%;
+  padding-top: 50px;
+  margin: 100 auto 100 auto;
+  position: relative;
+}
+
+.design-text {
+  text-align: left
+}
+
+.mountain {
+  margin: auto;
+}
+
+.cloud-1 {
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+
+.sax-img {
+  width: 17%;
+  margin-right: 30px;
+  float: left;
+}
+
+.code-img {
+  position: relative;
+  margin-top: 8px;
+  width: 17%;
+  float: right;
+}
+
+.attribution {
+  padding: 75px;
+  background-color: #c8d5b9;
+  color: white;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+.button {
+  margin-top: 50px;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*****************ID*****************/
+#hi {
+  padding-top: 0;
+}
