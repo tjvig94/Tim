@@ -1,4 +1,5 @@
-/****************TAGS****************/
+/* Universal */
+
 body {
   text-align: center;
   margin: 0;
@@ -16,13 +17,14 @@ h1 {
 
 p {
   font-family: 'IM Fell Double Pica', serif;
-  font-size: 1em;
+  font-size: 2em;
   line-height: 1.5;
 }
 
 h2 {
   font-family: 'IM Fell Double Pica', serif;
   font-weight: normal;
+  font-size: 3em;
   line-height: 2;
 }
 
@@ -42,8 +44,9 @@ hr {
   width: 10%;
 }
 
-/****************CLASS***************/
-.top-container {
+/* Introduction */
+
+header.introduction {
   position: relative;
   margin-top: 0;
   padding-top: 50px;
@@ -51,71 +54,66 @@ hr {
   background-color: #c8d5b9;
 }
 
-.hi {
+img.cloud-1 {
+  position: absolute;
+  right: 150px;
+  top: 30px;
+}
+
+img.cloud-2 {
+  position: absolute;
+  left: 150px;
+  top: 300px;
+}
+
+/* Who I am */
+
+section.hi {
   margin-top: 100px;
 }
 
-.skills {
+section.hi h1 {
+  padding-top: 0;
+}
+
+section.skills {
   margin-top: 100px;
   color: white;
   background-color: #c8d5b9;
   padding-bottom: 100px;
 }
 
-.pedagogy {
+/* My Skills */
+
+div.pedagogy {
   width: 60%;
   margin: 0 auto 100 auto;
   position: relative;
   text-align: left;
 }
 
-.design {
+div.design {
   width: 60%;
   padding-top: 50px;
   margin: 100 auto 100 auto;
   position: relative;
-}
-
-.design-text {
   text-align: left
 }
 
-.mountain {
-  margin: auto;
-}
-
-.cloud-1 {
-  position: absolute;
-  right: 150px;
-  top: 30px;
-}
-
-.cloud-2 {
-  position: absolute;
-  left: 150px;
-  top: 300px;
-}
-
-.sax-img {
+img.sax-img {
   width: 17%;
   margin-right: 30px;
   float: left;
 }
 
-.code-img {
+img.code-img {
   position: relative;
   margin-top: 8px;
   width: 17%;
   float: right;
 }
 
-.attribution {
-  padding: 75px;
-  background-color: #c8d5b9;
-  color: white;
-  margin-top: 100px;
-  text-decoration: none;
-}
+/* Contact Button */
 
 .button {
   margin-top: 50px;
@@ -140,8 +138,12 @@ hr {
 	top:1px;
 }
 
+/* Copyright Information */
 
-/*****************ID*****************/
-#hi {
-  padding-top: 0;
+footer.attribution {
+  padding: 75px;
+  background-color: #c8d5b9;
+  color: white;
+  margin-top: 100px;
+  text-decoration: none;
 }
